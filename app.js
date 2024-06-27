@@ -45,7 +45,7 @@ Car.onclick = function()
 }
 Phone.onclick = function()
 {
-    Content.style.background="url('Images/phone.jpg') center center / cover";
+    Content.style.background="url('Images/Phone.jpg') center center / cover";
 }
 Flower.onclick = function()
 {
