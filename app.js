@@ -16,6 +16,11 @@ let lightmode = localStorage.getItem('lightMode')
 var About = document.getElementById('About');
 var Contact = document.getElementById('Contact');
 var theme = document.getElementById('theme');
+var AI = document.getElementById('AI')
+var Car = document.getElementById('Car')
+var Phone = document.getElementById('Phone')
+var Flower = document.getElementById('Flower')
+var Content = document.getElementById('Content')
 theme.onclick = function() 
 {
     document.body.classList.toggle("lightMode");
@@ -30,4 +35,19 @@ theme.onclick = function()
             Contact.style.background="url('Images/panel.jpg') center center / cover";
         }
 }
-document.body.classList.toggle('')
+AI.onclick = function()
+{
+    Content.style.background="url('Images/AI.jpg') center center / cover";
+}
+Car.onclick = function()
+{
+    Content.style.background="url('Images/Car.jpg') center center / cover";
+}
+Phone.onclick = function()
+{
+    Content.style.background="url('Images/phone.jpg') center center / cover";
+}
+Flower.onclick = function()
+{
+    Content.style.background="url('Images/flower.jpg') center center / cover";
+}

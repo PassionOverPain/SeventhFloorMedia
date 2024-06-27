@@ -75,6 +75,9 @@
  }
  .text
  {
+   background: linear-gradient( white 55%,black);
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip:text;
    font-family: 'Times New Roman', Times, serif;
    padding: 0;
    margin: 0;
@@ -190,12 +193,15 @@
  }
  #Car{
     background-image: url(Images/Car.jpg);
+
  }
  #Phone{
     background-image: url(Images/Phone.jpg);
+
  }
  #Flower{
     background-image: url(Images/flower.jpg);
+
  }
  p{
     font-size:30px;
@@ -217,9 +223,8 @@
      min-height:100vh;
     
  }
- article
+ #Content
  {   
-      
     text-align:start;
     padding: 10px;
     height: auto;
@@ -284,13 +289,17 @@
    font-size: 16px;
    color:var(--backgroundclr);
  }
+ #links
+ {
+   position: relative;
+   top:5%;
+   margin:0;
+   padding:0;
+ }
  :root
  {
    --clr-light:hsla(0, 0%, 100%, 0.829);
    --clr-dark:hsla(240, 31%, 5%, 0.76); 
-   --wpanel: wpanel.jpg;
-   --bpanel:panel.jpg;
-  --panel : var(bpanel);
 
    --backgroundclr:var(--clr-dark);
    --textclr : var(--clr-light);
@@ -305,9 +314,7 @@
 {
    --clr-light:hsla(0, 0%, 100%, 0.829);
    --clr-dark:hsla(240, 31%, 5%, 0.76); 
-   --wpanel: wpanel.jpg;
-   --bpanel:panel.jpg;
- 
+
    --backgroundclr:var(--clr-light);
    --textclr : var(--clr-dark);
 }
@@ -362,7 +369,7 @@
       margin : 0px;
       width:98%;
    }
-   Article
+   #Content
    {
       font-size:1.7rem;
    }
@@ -390,6 +397,15 @@
       animation-duration: 0s;
       transform:scale(1.5);
       color: blue;
+   
+   }
+   #AI,#Phone,#Car,#Flower
+   {
+      filter: grayscale(1.2);
+   }
+   #AI:hover,#Phone:hover,#Car:hover,#Flower:hover
+   {
+      filter: none;
    }
    .send-btn:hover
  {
@@ -398,13 +414,9 @@
 }
 @media only screen and (min-width: 601px) and (max-width: 768px)
 {
-   .ImageGallery
-   {
-      align-items: center;
-      justify-content: center;
-      position: relative;
-      display: flex;
-      width:65%;
-   }
+ .text
+ {
+   width:50vw;
+ }
   
 }
