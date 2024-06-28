@@ -25,18 +25,23 @@ const Car = document.getElementById('Car');
 const Phone = document.getElementById('Phone');
 const Flower = document.getElementById('Flower');
 const Content = document.getElementById('Content');
+const ImageGallery = document.getElementById('ImageGallery')
 theme.onclick = function() 
 {
     document.body.classList.toggle("lightMode");
     if(document.body.classList.contains("lightMode")) //Light mode is toggled by the addition or deletion of this code section on the body section//
         {
-            About.style.background="url('Images/wpanel.jpg') center center / cover";
-            Contact.style.background="url('Images/wpanel.jpg') center center / cover";
+            About.style.background="linear-gradient(gray,black)";
+            Contact.style.background="linear-gradient(gray,black)";
+            document.getElementsByTagName('body')[0].style.backgroundImage = "linear-gradient(white,gray,white)";
+            ImageGallery.style.background = "linear-gradient(white,gray)";
         }
         else
         {
             About.style.background="linear-gradient(black,hsla(0, 0%, 0%, 0.527))";
             Contact.style.background="linear-gradient(black,hsla(0, 0%, 0%, 0.527))";
+            document.getElementsByTagName('body')[0].style.backgroundImage = "linear-gradient(grey,black)";
+            ImageGallery.style.background = "linear-gradient(to right, black,hsla(0, 0%, 0%, 0.527))";
         }
 }
 //These functions basically change the background image and content of the article section //
