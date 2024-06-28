@@ -57,7 +57,7 @@ Car.onclick = function()
 }
 Phone.onclick = function()
 {
-    Content.style.background="url('Images/phone.jpg') center center / cover";
+    Content.style.background="url('Images/Phone.jpg') center center / cover";
     Content.textContent = "The digital divide exacerbates the phenomenon of Monteray multiplication between the wealthy and poor, creating stark disparities in access to technology and its benefits. As affluent individuals and communities embrace advanced digital tools and opportunities, they can multiply their wealth and influence through enhanced connectivity, education, and business ventures. Meanwhile, those on the impoverished side of the digital divide face barriers to acquiring digital skills, accessing online resources, and participating in the digital economy, widening the wealth gap. Bridging this divide is crucial for equitable societal progress, ensuring that all individuals have fair opportunities to leverage digital advancements for personal and economic advancement.";
 }
 Flower.onclick = function()
