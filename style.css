@@ -159,9 +159,16 @@
  {
     1%{ transform: translateX(-1200px)}
  }
+ .ImageGallery a
+ {
+   color:white;
+   text-decoration: none;
+ }
  .ImageGallery
  {
-   
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
     color:white;
     justify-content: center;
     align-items: center;
