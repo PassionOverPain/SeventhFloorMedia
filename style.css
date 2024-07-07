@@ -166,9 +166,7 @@
  }
  .ImageGallery
  {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    
+   
     color:white;
     justify-content: center;
     align-items: center;
@@ -199,20 +197,26 @@
     margin: 5px;
    font-size: 30px;
  }
- #AI{
+ #AI
+ {
     background-image: url(Images/AI.jpg);
+    font-size: 1.2rem;
  }
- #Car{
+ #Car
+ {
     background-image: url(Images/Car.jpg);
+    font-size: 1.2rem;
 
  }
- #Phone{
+ #Phone
+ {
     background-image: url(Images/Phone.jpg);
-
+    font-size: 1.2rem;
  }
- #Flower{
+ #Flower
+ {
     background-image: url(Images/flower.jpg);
-
+    font-size: 1.2rem;
  }
  p{
     font-size:30px;
