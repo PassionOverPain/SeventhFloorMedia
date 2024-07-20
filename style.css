@@ -3,6 +3,11 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+  box-sizing: border-box;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
 header {
   border-radius: 10px;
   border-style: solid;
