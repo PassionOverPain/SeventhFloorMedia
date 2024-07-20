@@ -242,7 +242,7 @@ body {
   justify-content: center;
 }
 form {
-  background-color: rgba(128, 128, 128, 0.24);
+  background-color: rgba(128, 128, 128, 0.205);
   height: 400px;
   width: 500px;
   padding: 10px;
