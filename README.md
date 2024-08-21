@@ -4,6 +4,10 @@ Seventh Floor Media if a fictional newspaper publication company that strives on
 (_Know where the Truth lies... get it? ;)_ ) <br>
 This website is a practical continuation of my journey in learning Web development.
 You can view the live site here: https://passionoverpain.github.io/SeventhFloorMedia/
+
+## Preview 
+![image](https://github.com/user-attachments/assets/d1c5c41a-8e11-459a-a78c-42af9712a6fd)
+
 ## General Attributes
 All images used on this website are licensed to be free for commercial use with attribution to their respective sources. 
 <ul>
