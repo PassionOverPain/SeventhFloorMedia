@@ -9,7 +9,7 @@ You can view the live site here: https://passionoverpain.github.io/SeventhFloorM
 ![image](https://github.com/user-attachments/assets/d1c5c41a-8e11-459a-a78c-42af9712a6fd)
 
 ## General Attributes
-All images used on this website are licensed to be free for commercial use with attribution to their respective sources. YUP
+All images used on this website are licensed to be free for commercial use with attribution to their respective sources. 
 <ul>
 <li>The background and card images: Acredited to <a href="https://www.vecteezy.com">Vecteezy</a></li>
 </ul>
